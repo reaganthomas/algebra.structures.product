@@ -1,0 +1,34 @@
+{
+  "name": "algebra.structures.product",
+  "version": "0.1.0",
+  "description": "A multiplicative structure conforming to the Monoid specification.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reaganthomas/algebra.structures.product.git"
+  },
+  "keywords": [
+    "monoid",
+    "product",
+    "algebra",
+    "functional"
+  ],
+  "author": "Reagan Thomas <reagan@reaganthomas.com> (http://reaganthomas.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reaganthomas/algebra.structures.product/issues"
+  },
+  "homepage": "https://github.com/reaganthomas/algebra.structures.product",
+  "devDependencies": {
+    "algebra.laws": "^0.1.0",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3"
+  },
+  "dependencies": {
+    "algebra.structures.constructor": "^0.1.0",
+    "deep-equal": "^1.0.1"
+  }
+}
